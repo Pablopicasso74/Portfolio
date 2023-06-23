@@ -1,0 +1,380 @@
+{
+  "id": "d72da1f4-59aa-45d8-a529-ea6a63cef273",
+  "version": "2.0",
+  "name": "WS_IDE",
+  "url": "https://www.wildberries.ru/",
+  "tests": [{
+    "id": "2085fd3c-ba3b-4e90-b360-60f3e72f86cf",
+    "name": "click",
+    "commands": [{
+      "id": "0af86a50-e9df-4da8-a486-f65f290446b6",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30d823ff-b3bf-4e30-9ebc-f16ba23bc8e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-element__burger-line",
+      "targets": [
+        ["css=.nav-element__burger-line", "css:finder"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93eee846-402a-4e6d-ae47-482c8483a58e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Женщинам",
+      "targets": [
+        ["linkText=Женщинам", "linkText"],
+        ["css=.menu-burger__main-list-link--306", "css:finder"],
+        ["xpath=//a[contains(text(),'Женщинам')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.wildberries.ru/catalog/zhenshchinam')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Женщинам')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1759f2da-3bac-4f24-bfdf-d4dfab175489",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Женщинам",
+      "targets": [
+        ["linkText=Женщинам", "linkText"],
+        ["css=.menu-burger__main-list-link--306", "css:finder"],
+        ["xpath=//a[contains(text(),'Женщинам')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.wildberries.ru/catalog/zhenshchinam')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Женщинам')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc6fb4ac-290d-446f-8536-db4125949a1c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.menu-burger__main-list-link--306",
+      "targets": [
+        ["css=.menu-burger__main-list-link--306", "css:finder"],
+        ["xpath=//a[contains(text(),'Женщинам')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.wildberries.ru/catalog/zhenshchinam')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Женщинам')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "476c8d5a-100a-418a-9f4f-dbac74ea14c0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Верхняя одежда",
+      "targets": [
+        ["linkText=Верхняя одежда", "linkText"],
+        ["css=li:nth-child(3) > .j-menu-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'Верхняя одежда')])[2]", "xpath:link"],
+        ["xpath=//div[@id='app']/div[2]/div/div[3]/div/div/div/ul[2]/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/catalog/zhenshchinam/odezhda/verhnyaya-odezhda')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul[2]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76aeca3b-0a4a-43dd-bda4-6bcdf73b62ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBlock']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22ebb678-d8fe-4b95-90b2-9bff455e7a79",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBlock']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "куртка"
+    }, {
+      "id": "cd229a76-ad52-4325-ad3d-85a4503952ea",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBlock']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "97c6d8b1-cdf4-4dac-adeb-677efe9cdc08",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBlock']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "0bc9ebda-7997-4036-a748-8cfd9ef36c21",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBlock']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "куртка женская весна"
+    }, {
+      "id": "7afea66e-7b50-4da4-9eb7-55da4f72b9aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=applySearchBtn",
+      "targets": [
+        ["id=applySearchBtn", "id"],
+        ["css=#applySearchBtn", "css:finder"],
+        ["xpath=//button[@id='applySearchBtn']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBlock']/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Поиск товара')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1c6979c-ce77-42e6-8e50-64bbc66df2ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-filter__btn--burger",
+      "targets": [
+        ["css=.dropdown-filter__btn--burger", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='OTY2ZDcyYmQtMzI0ZS03ZWM4LWU2N2YtNTk3YzBmOWQ3NDZh']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'куртка женская весна')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4157b64-28ed-4ebf-b8e4-98773b54daaf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Одежда",
+      "targets": [
+        ["linkText=Одежда", "linkText"],
+        ["css=.filter-category__item:nth-child(1) > .filter-category__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Одежда')]", "xpath:link"],
+        ["xpath=//div[@id='OTY2ZDcyYmQtMzI0ZS03ZWM4LWU2N2YtNTk3YzBmOWQ3NDZh']/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/0/search.aspx?search=куртка женская весна&ssubject=1')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Одежда')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c72315fb-824d-452e-a5e2-1283710b8d67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-filter__btn--sorter",
+      "targets": [
+        ["css=.dropdown-filter__btn--sorter", "css:finder"],
+        ["xpath=(//button[@type='button'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='ZDJhNDk4NmItNGM5ZS0xMmI0LTI0OGItZjQyNWE2NWQ4OTYx']/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'По популярности')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1d6952b-8613-464c-921e-c4a44c60e488",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter__item:nth-child(3) .radio-with-text__text",
+      "targets": [
+        ["css=.filter__item:nth-child(3) .radio-with-text__text", "css:finder"],
+        ["xpath=//div[@id='ZDJhNDk4NmItNGM5ZS0xMmI0LTI0OGItZjQyNWE2NWQ4OTYx']/div/div/ul/li[3]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'По возрастанию цены')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6de5f2cd-3110-49fc-bdee-25f9901f91de",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Zjc1Y2MyMTMtYTUwZS0yZjEyLTJkNTktYWMxM2IzZWMxMTY1 > .dropdown-filter__btn",
+      "targets": [
+        ["css=#Zjc1Y2MyMTMtYTUwZS0yZjEyLTJkNTktYWMxM2IzZWMxMTY1 > .dropdown-filter__btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='Zjc1Y2MyMTMtYTUwZS0yZjEyLTJkNTktYWMxM2IzZWMxMTY1']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Категория')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6c1212e-cafc-4e1d-9866-72c6ed511895",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter__item:nth-child(1) .checkbox-with-text__text",
+      "targets": [
+        ["css=.filter__item:nth-child(1) .checkbox-with-text__text", "css:finder"],
+        ["xpath=//div[@id='Zjc1Y2MyMTMtYTUwZS0yZjEyLTJkNTktYWMxM2IzZWMxMTY1']/div/div/ul/li/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Анорак 172')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a0c5096-a6f4-4a11-9a97-9aecfdcb2b54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected > .checkbox-with-text__text",
+      "targets": [
+        ["css=.selected > .checkbox-with-text__text", "css:finder"],
+        ["xpath=//div[@id='Zjc1Y2MyMTMtYTUwZS0yZjEyLTJkNTktYWMxM2IzZWMxMTY1']/div/div/ul/li/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Анорак 172')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b9c8734-ba40-46f3-8505-d81f6b2f3985",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter__item:nth-child(7) .checkbox-with-text__text",
+      "targets": [
+        ["css=.filter__item:nth-child(7) .checkbox-with-text__text", "css:finder"],
+        ["xpath=//div[@id='Zjc1Y2MyMTMtYTUwZS0yZjEyLTJkNTktYWMxM2IzZWMxMTY1']/div/div/ul/li[7]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//li[7]/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Куртка сноубордическая 8')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0688176-7643-46ab-b4b8-a75be17ae93b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#c44655401 .product-card__link",
+      "targets": [
+        ["css=#c44655401 .product-card__link", "css:finder"],
+        ["xpath=//article[@id='c44655401']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.wildberries.ru/catalog/44655401/detail.aspx')]", "xpath:href"],
+        ["xpath=//article/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac934d36-a730-4113-a392-a46330ecda17",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Все куртки сноубордические FORCELAB",
+      "targets": [
+        ["linkText=Все куртки сноубордические FORCELAB", "linkText"],
+        ["css=.j-wba-card-item:nth-child(2) > a", "css:finder"],
+        ["xpath=//div[@id='b215ff1f-0c75-413d-5d06-00462241ce3d']/div[3]/div[6]/div[2]/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/brands/forcelab/kurtki-snoubordicheskie')]", "xpath:href"],
+        ["xpath=//div[2]/p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Все куртки сноубордические FORCELAB')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2503271a-e813-43cf-a746-a4457a70e1cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active:nth-child(3)",
+      "targets": [
+        ["css=.active:nth-child(3)", "css:finder"],
+        ["xpath=//ul[@id='bd025626-a2d2-67fd-62b7-23144c7ab8b8']/li[6]/label", "xpath:idRelative"],
+        ["xpath=//li[6]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d36cecae-8622-478d-8da3-c3963f019fc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .order > .btn-main:nth-child(2)",
+      "targets": [
+        ["css=div:nth-child(2) > .order > .btn-main:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='b215ff1f-0c75-413d-5d06-00462241ce3d']/div[3]/div[9]/div/div/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/div[2]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9168c87e-0843-427e-9dbb-31115ae6e13c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Перейти в корзину",
+      "targets": [
+        ["linkText=Перейти в корзину", "linkText"],
+        ["css=div:nth-child(2) > .order > .j-go-to-basket", "css:finder"],
+        ["xpath=(//a[contains(text(),'Перейти в корзину')])[2]", "xpath:link"],
+        ["xpath=//div[@id='b215ff1f-0c75-413d-5d06-00462241ce3d']/div[3]/div[9]/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/lk/basket')])[12]", "xpath:href"],
+        ["xpath=//div[9]/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b4bb0e7-7812-4b29-ad48-17f2615e80f8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=правилами пользования торговой площадкой",
+      "targets": [
+        ["linkText=правилами пользования торговой площадкой", "linkText"],
+        ["css=.basket-order__b-oferta-access > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'правилами пользования торговой площадкой')]", "xpath:link"],
+        ["xpath=//form[@id='basketForm']/div[2]/div/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/pravila-polzovaniya-torgovoy-ploshchadkoy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'правилами пользования торговой площадкой')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88425675-67ff-4dff-a93f-c066166763da",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=правилами пользования торговой площадкой",
+      "targets": [
+        ["linkText=правилами пользования торговой площадкой", "linkText"],
+        ["css=.basket-order__b-oferta-access > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'правилами пользования торговой площадкой')]", "xpath:link"],
+        ["xpath=//form[@id='basketForm']/div[2]/div/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/pravila-polzovaniya-torgovoy-ploshchadkoy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'правилами пользования торговой площадкой')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "107337f0-7c87-43e1-b5cf-60b187898839",
+      "comment": "",
+      "command": "click",
+      "target": "name=ConfirmOrderByRegisteredUser",
+      "targets": [
+        ["name=ConfirmOrderByRegisteredUser", "name"],
+        ["css=.b-btn-do-order", "css:finder"],
+        ["xpath=//button[@name='ConfirmOrderByRegisteredUser']", "xpath:attributes"],
+        ["xpath=//form[@id='basketForm']/div[2]/div/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Заказать')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "22deb69f-ce7a-4f42-8ae7-4c569cb91259",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2085fd3c-ba3b-4e90-b360-60f3e72f86cf"]
+  }],
+  "urls": ["https://qahacking.guru/", "https://www.wildberries.ru/"],
+  "plugins": []
+}
